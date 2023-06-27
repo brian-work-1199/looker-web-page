@@ -385,4 +385,8 @@ html {
   .navbar.show .menu a {
     width: 100%;
   }
+
+  .navbar.show .menu button {
+    width: 100%;
+  }
 }

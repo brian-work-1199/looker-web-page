@@ -45,14 +45,14 @@ function chooseSlide(n) {
   clearInterval(timer);
 }
 
-// function showMenu() {
-// 	var topNav = document.getElementById('topnav');
-// 	if (topNav.className === "navbar") {
-// 		topNav.className += " show";
-// 	} else {
-// 		topNav.className = "navbar";
-// 	}
-// }
+function showMenu() {
+  var topNav = document.getElementById("topnav");
+  if (topNav.className === "navbar") {
+    topNav.className += " show";
+  } else {
+    topNav.className = "navbar";
+  }
+}
 const formOpenBtn = document.querySelector("#form-open"),
   home = document.querySelector(".home"),
   formContainer = document.querySelector(".form_container"),
